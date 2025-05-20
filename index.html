@@ -28,20 +28,21 @@
     </header>
 
     <main>
-      <section class="container">
-        <form class="row justify-content-center align-items-center my-3">
+      <section class="container my-3">
+        <h2 class="text-center text-primary">Formulario de tareas!</h2>
+        <form class="row justify-content-center align-items-center my-3" id="tareaForm">
           <div class="mb-3 col-md-6">
             <label for="input-tarea" class="form-label"
               >Agregar una tarea:</label
             >
-            <input type="text" class="form-control" id="input-tarea" />
+            <input type="text" class="form-control" id="input-tarea" minlength="4" maxlength="60" required/>
           </div>
           <div class="col-md-auto">
               <button class="btn btn-primary">Agregar tarea</button>
           </div>
         </form>
         <ul class="list-group">
-          <li class="list-group-item"></li>
+          
         </ul>
       </section>
     </main>
